@@ -29,11 +29,23 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rxh-lR-8bo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new lable in new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAF-bJ-uQw">
+                                <rect key="frame" x="82" y="161" width="212" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="212" id="M16-aa-4oa"/>
+                                    <constraint firstAttribute="height" constant="25" id="tWX-ih-OLy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="gAF-bJ-uQw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="3Rk-eG-CvB"/>
                             <constraint firstItem="mIs-Gd-LAb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GkP-28-E1q"/>
                             <constraint firstItem="mIs-Gd-LAb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="YOG-B6-1Pe"/>
+                            <constraint firstItem="gAF-bJ-uQw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ymn-CY-onf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
